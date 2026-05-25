@@ -3,8 +3,8 @@ num1 = 100
 num2 = 2
 
 # num3 and num4 are strings
-num3 = float("50")
-num4 = float("5")
+num3 = int("50")
+num4 = int("5")
 
 # TODO: Fix the data type issue below
 # Convert string variables to the correct type so the math works
@@ -14,4 +14,4 @@ num4 = float("5")
 print(num1 / num2)
 
 # This will cause an error — do NOT change this line!
-print( num3 /num4 )
+print(num3 /num4)
