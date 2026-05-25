@@ -1,0 +1,2 @@
+text = "MUFY"
+print(text)
