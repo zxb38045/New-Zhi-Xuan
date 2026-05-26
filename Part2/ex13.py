@@ -1,5 +1,9 @@
 # Start from zero
 count = 0
+while count < 5:
+    count += 1
+    print(count)
+
 
 # TODO:
 # Create a while loop that prints the count
