@@ -15,10 +15,13 @@ def calculate(num1, operator, num2):
         return num1 - num2
     elif operator == "*":
         return num1 * num2
+    elif num2 == 0 and operator == "/":
+        return "Error: Division by zero"
     elif operator == "/":
         return num1 / num2
     else:
         return "Invalid operator"
+        
     
 # Test the function with different operations
 print(calculate(num1, "+", num2))  
